@@ -1,3 +1,3 @@
-# Dark MD Syntax Theme
+# Dark MD Syntax
 
 Just a not shit dark theme for writing Markdown in Atom. 
