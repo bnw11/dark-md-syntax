@@ -253,11 +253,12 @@ atom-text-editor {
     color: @very-light-gray;
   }
 
-  &.syntax--heading {
+  &.synsyntax--heading {
     color: @successgreen;
   }
-  &.syntax--link {
-    color: @blue;
+
+  &.syntax--link.syntax--string {
+    color: @cyan;
   }
 
 }
@@ -299,6 +300,10 @@ atom-text-editor {
 
   &.syntax--raw.syntax--inline {
     color: @green;
+  }
+
+  &.syntax--underline.syntax--link {
+    color: @lightblue;
   }
 }
 
